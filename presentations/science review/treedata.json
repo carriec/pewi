@@ -1,0 +1,366 @@
+{
+ "name": "PE/WI",
+ "children": [
+  {
+   "name": "Biodiversity",
+   "children": [
+    {
+     "name": "Contagion",
+     "children": [
+      {"name": "Land cover heterogeneity", "size": 3938}
+     ]
+    },
+    {
+     "name": "Native perennials",
+     "children": [
+      {"name": "Conservation forest", "size": 5731},
+	  {"name": "Prairie", "size": 3534},
+      {"name": "Wetland", "size": 7840}
+     ]
+    },
+    {
+     "name": "Non-native perennials",
+     "children": [
+      {"name": "Conservation corn", "size": 3534},
+      {"name": "Conservation soybean", "size": 5731},
+	  {"name": "Conventional forest", "size": 7840},
+	  {"name": "Herbaceous bioenergy", "size": 7840},
+      {"name": "Rotational grazing", "size": 7840}	
+     ]
+    },
+    {
+     "name": "Stream buffer",
+     "children": [
+      {"name": "Conservation corn", "size": 3534},
+      {"name": "Conservation soybean", "size": 5731},
+	  {"name": "Conservation forest", "size": 7840},
+	  {"name": "Conventional forest", "size": 7840},
+	  {"name": "Prairie", "size": 7840},
+      {"name": "Rotational grazing", "size": 7840},
+	  {"name": "Wetland", "size": 7840}
+     ]
+    },
+    {
+     "name": "Wetland",
+     "children": [
+	  {"name": "Strategic wetland", "size": 7074},
+	  {"name": "Wetland", "size": 7840}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Carbon sequestration",
+   "children": [
+    {
+     "name": "From annual row crops to",
+     "children": [
+      {"name": "Alfalfa", "size": 3534},
+	  {"name": "Conservation corn", "size": 3534},
+      {"name": "Conservation soybean", "size": 5731},
+	  {"name": "Conservation forest", "size": 7840},
+	  {"name": "Conventional forest", "size": 7840},
+	  {"name": "Grass hay", "size": 7840},
+	  {"name": "Herbaceous bioenergy", "size": 7840},
+	  {"name": "Permanent pasture", "size": 7840},
+	  {"name": "Prairie", "size": 7840},
+      {"name": "Rotational grazing", "size": 7840},
+	  {"name": "Wetland", "size": 7840},
+	  {"name": "Short-rotation woody bioenergy", "size": 7840},
+	  {"name": "**Mixed fruits and vegetables?", "size": 7840}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Game wildlife",
+   "children": [
+    {
+     "name": "Contagion",
+     "children": [
+      {"name": "Land cover heterogeneity", "size": 3938}
+     ]
+    },
+    {
+     "name": "Perennials",
+     "children": [
+      {"name": "Conservation forest", "size": 5731},
+	  {"name": "Conservation corn", "size": 3534},
+      {"name": "Conservation soybean", "size": 5731},
+	  {"name": "Conventional forest", "size": 7840},
+	  {"name": "Herbaceous bioenergy", "size": 7840},
+      {"name": "Prairie", "size": 3534},
+	  {"name": "Rotational grazing", "size": 7840},	
+	  {"name": "Wetland", "size": 7840}
+     ]
+    },
+    {
+     "name": "Stream buffer",
+     "children": [
+      {"name": "Conservation corn", "size": 3534},
+      {"name": "Conservation soybean", "size": 5731},
+      {"name": "Rotational grazing", "size": 7840},
+	  {"name": "Prairie", "size": 7840},
+	  {"name": "Conservation forest", "size": 7840},
+	  {"name": "Conventional forest", "size": 7840},
+	  {"name": "Wetland", "size": 7840}
+     ]
+    },
+    {
+     "name": "Wetland",
+     "children": [
+	  {"name": "Wetland", "size": 7840},
+      {"name": "Strategic wetland", "size": 7074}
+     ]
+    }
+	,
+    {
+     "name": "Forest",
+     "children": [
+	  {"name": "Conservation forest", "size": 7840},
+      {"name": "Conventional forest", "size": 7074}
+     ]
+    }
+   ]
+  }
+  ,
+  {
+   "name": "Nitrogen-nitrate concentration",
+   "children": [
+    {
+     "name": "Conservation practices",
+     "children": [
+      {"name": "Cover crops", "size": 3938},
+	  {"name": "Filter strips", "size": 3938}
+     ]
+    },
+    {
+     "name": "Row crop area",
+     "children": [
+	  {"name": "Alfalfa", "size": 7840},
+      {"name": "Conservation corn", "size": 3534},
+      {"name": "Conservation soybean", "size": 5731},
+	  {"name": "Conventional corn", "size": 3534},
+      {"name": "Conventional soybean", "size": 5731},
+	  {"name": "Mixed fruits and vegetables", "size": 7840}
+     ]
+    },
+    {
+     "name": "Precipitation",
+     "children": [
+      {"name": "Wet year following dry year", "size": 3534},
+      {"name": "Normal year following dry year", "size": 5731},
+      {"name": "Dry year", "size": 7840},
+	  {"name": "All others", "size": 7840}
+     ]
+    },
+    {
+	"name": "Strategic wetland"
+	}
+   ]
+  },
+  {
+   "name": "Phosphorus loading",
+   "children": [
+    {
+     "name": "Buffered stream",
+	  "children": [
+		{"name": "Conservation corn", "size": 593},
+		{"name": "Conservation forest"},
+		{"name": "Conservation soybean"},
+		{"name": "Conventional forest"},
+		{"name": "Herbaceous bioenergy"},
+		{"name": "Prairie"},
+		{"name": "Short-rotation woody bioenergy"},
+		{"name": "Wetland"}
+        ]
+    },
+    {
+     "name": "P Index",
+     "children": [
+        {"name": "Drainage component",
+		"children": [
+            {"name": "Flow factor", 
+			"children": [
+	          {"name": "Drainage class"},
+			  {"name": "Slope"},
+			  {"name": "Subsoil group"},
+			  {"name": "Permeability"}
+	         ]
+			},
+            {"name": "Precipitation factor",
+			"children": [
+	          {"name": "Historical annual averages"},
+	          {"name": "PE/WI annual averages"}
+	         ]
+			},
+            {"name": "STP drainage factor",
+			"children": [
+			  {"name": "MLRA mean soil test P"}
+			]
+			}
+		]	
+		},
+        {"name": "Erosion component",
+         "children": [
+            {"name": "Buffer factor", 
+		    "children": [
+			  {"name": "Conservation corn", "size": 593},
+			  {"name": "Conservation forest"},
+			  {"name": "Conservation soybean"},
+			  {"name": "Conventional forest"},
+			  {"name": "Herbaceous bioenergy"},
+			  {"name": "Prairie"},
+			  {"name": "Short-rotation woody bioenergy"},
+			  {"name": "Wetland"}
+			  ]
+			},
+            {"name": "Enrichment factor", 
+			"children": [
+			  {"name": "Land cover", "size": 593}
+			  ]
+			},
+            {"name": "Gross erosion", 
+	         "children": [
+			 {"name": "Ephemeral gully erosion"},	         
+			 {"name": "RUSLE"}
+	         ]
+	        },
+            {"name": "Sediment delivery ratio",
+			 "children": [
+	          {"name": "Distance to stream"},
+	          {"name": "MLRA"}
+	         ]
+			},
+            {"name": "STP erosion factor",
+			"children": [
+			  {"name": "MLRA mean soil test P"}
+			]
+			}
+         ]
+        },
+		{"name": "Runoff component",
+		"children": [
+            {"name": "Runoff factor", 
+			"children": [
+	          {"name": "Runoff curve number",
+			  "children": [
+			     {"name": "Hydrologic group"},
+				 {"name": "Land cover"},
+				 {"name": "Slope"}
+			  ]
+			  }
+	         ]
+			},
+            {"name": "P application factor",
+			"children": [
+	          {"name": "Historical annual averages"},
+	          {"name": "PE/WI annual averages"}
+	         ]
+			},
+            {"name": "STP runoff factor",
+			"children": [
+			  {"name": "MLRA mean soil test P"}
+			]
+			},
+			{"name": "Precipitation factor",
+			"children": [
+	          {"name": "Historical annual averages"},
+	          {"name": "PE/WI annual averages"}
+	         ]
+			}
+         ]
+		}
+     ]
+	 },
+	{
+     "name": "Strategic wetland"
+    }
+	]
+  },
+    {
+   "name": "Sediment delivered",
+   "children": [
+    {
+     "name": "Buffered stream",
+	  "children": [
+		{"name": "Conservation corn", "size": 593},
+		{"name": "Conservation forest"},
+		{"name": "Conservation soybean"},
+		{"name": "Conventional forest"},
+		{"name": "Herbaceous bioenergy"},
+		{"name": "Prairie"},
+		{"name": "Short-rotation woody bioenergy"},
+		{"name": "Wetland"}
+        ]
+    },
+	{
+     "name": "Erosion",
+     "children": [
+		{"name": "Buffer factor", 
+		    "children": [
+			  {"name": "Conservation corn", "size": 593},
+			  {"name": "Conservation forest"},
+			  {"name": "Conservation soybean"},
+			  {"name": "Conventional forest"},
+			  {"name": "Herbaceous bioenergy"},
+			  {"name": "Prairie"},
+			  {"name": "Short-rotation woody bioenergy"},
+			  {"name": "Wetland"}
+			  ]
+		},
+		{"name": "Gross erosion", 
+		 "children": [
+		   {"name": "RUSLE"},
+		   {"name": "Ephemeral gully erosion"}
+		 ]
+	    },
+        {"name": "Sediment delivery ratio",
+			 "children": [
+	          {"name": "Distance to stream"},
+	          {"name": "MLRA"}
+	         ]
+		}
+        ]
+	},
+	{
+     "name": "Strategic wetland P reduction"
+    }
+	]
+  },
+  {
+   "name": "Yield",
+   "children": [
+    {"name": "Alfalfa", "size": 1616},
+	{"name": "Cattle",
+	"children": [
+      {"name": "Permanent pasture", "size": 593},
+      {"name": "Rotational grazing", "size": 330}
+	  ]
+    },
+    {"name": "Corn",
+	"children": [
+      {"name": "Conservation corn", "size": 593},
+      {"name": "Conventional corn", "size": 330}
+	  ]
+    },
+	{"name": "Grass hay", "size": 1027},
+	{"name": "Herbaceous biomass", "size": 1027},
+	{"name": "Mixed fruits and vegetables", "size": 1027},
+    {"name": "Soybean",
+	"children": [
+      {"name": "Conservation soybean", "size": 593},
+      {"name": "Conventional soybean", "size": 330}
+	  ]
+    },
+	{"name": "Short-rotation woody biomass", "size": 891},
+	{"name": "Timber",
+	"children": [
+      {"name": "Conservation forest", "size": 593},
+      {"name": "Conventional forest", "size": 330}
+	  ]
+    }
+	]
+  }
+  ]
+}
