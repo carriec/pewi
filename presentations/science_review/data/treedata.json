@@ -254,8 +254,8 @@
 			},
             {"name": "P application factor",
 			"children": [
-	          {"name": "Historical annual averages"},
-	          {"name": "PE/WI annual averages"}
+	          {"name": "Application rate"},
+	          {"name": "Application method"}
 	         ]
 			},
             {"name": "STP runoff factor",
