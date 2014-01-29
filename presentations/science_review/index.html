@@ -114,7 +114,7 @@
 </section>
 
 <section>
-<h1 class="double">Stream <span class="purple">Nitrate-nitrogen </span>Mitigation</h1>
+<h1 class="double"><span class="purple">Nitrate-nitrogen </span>Retention</h1>
 <h2>An index score, ranging from 0 to 100</h2>
 <aside>Using a straight-line index, we index the lowest concentration attainable in PE/WI for any given temporal climate sequence to 100, best score.  Similarly, we index the highest concentration attainable to 0, worst score.</aside>
 </section>
@@ -182,6 +182,182 @@
 <li>Normal precipitation year following a dry year: <span class="grey">69% percent increase</span>
 </ul>
 <h2>Precipitation factors</h2>
+</section>
+
+<section>
+<h1 class="double">Stream <span class="purple">Phosphorus </span>Loading</h1>
+<h2>Annual total watershed stream loading</h2>
+<aside>Phosphorus loading is calculated for each field, aggregated over each subwatershed with conservation practice reductions, and summed across the watershed.</aside>
+</section>
+
+<section>
+<h1 class="double">Stream <span class="purple">Phosphorus </span>Loading Results</h1>
+<h2>The range of values will depend upon how the calculation is performed.</h2>
+<aside>We would like to clarify how to use the P-Index field values to calculate loading for a watershed. We know that the best outcome occurs when the land cover is prairie. The worst concentration situation occurs with soybean with all wet years. Intermediate outcomes occur for permanent pasture and conservation row crops.</aside>
+</section>
+
+<section>
+<h1 class="double"><span class="purple">Phosphorus </span>Control</h1>
+<h2>An index score, ranging from 0 to 100</h2>
+<aside>Using a straight-line index, we index the lowest loading attainable in PE/WI for any given temporal climate sequence to 100, best score.  Similarly, we index the highest loading attainable to 0, worst score.</aside>
+</section>
+
+<section>
+<h1>Level 2: <span class="blue">Subwatershed</span></h1>
+<h2> <a href="http://carriec.github.io/pewi/presentations/science_review/tree">Second-level of PE/WI model calculation</a></h2>
+<aside>Subwatershed phosphorus loading is the product of three multipliers.</aside>
+</section>
+
+<section>
+<h1>Iowa <span class="orange">Phosphorus </span>Index</h1>
+<h2>Range of near zero to over 4 for each ten-acre field</h2>
+<aside>Iowa Technical Note 25 (2004). All fields are summed together for a subwatershed. Should this be multiplied by the acres per field? Lowest P-Index values occur with prairie land cover. Pasture and conservation row crops range from less than 0.5 to 1. Annual row crops range from less than 0.7 to over 4.</aside>
+</section>
+
+<section>
+<h1 class="double"> <span class="orange">Strategic Wetland </span>Multiplier</h1>
+<h2>Mutiply by 0.8<div class="grey">if all strategic wetlands are utilized.</div></h2>
+<aside>Iowa Nutrient Reduction Strategy, Section 2: Nonpoint Source Nutrient Reduction Science Assessment (2013).</aside>
+</section>
+
+<section>
+<h1 class="double"> <span class="orange">Strategic Wetland </span>Multiplier</h1>
+<h2>Mutiply by 0.42<div class="grey">dependent upon all </h2>
+<aside>Iowa Nutrient Reduction Strategy, Section 2: Nonpoint Source Nutrient Reduction Science Assessment (2013).</aside>
+</section>
+
+<section>
+<h1>Level 3: <span class="blue">Field</span></h1>
+<h2> <a href="http://carriec.github.io/pewi/presentations/science_review/tree">Second-level of PE/WI model calculation</a></h2>
+<aside>Field P-index scores are the summation of three components: drainage, erosion, and runoff. As mentioned previously, scores for ten acre fields in PE/WI range from near zero to above 4. </aside>
+</section>
+
+<section>
+<h1>Iowa <span class="orange">Phosphorus </span>Index</h1>
+<h2>Range of near zero to over 4 for each field</h2>
+<aside>Iowa Technical Note 25 (2004). Uncertain whether a measurement unit is associated with index scores and how to aggregate subwatershed loading. Lowest P-Index values occur with prairie land cover. Pasture and conservation row crops range from less than 0.5 to 1. Annual row crops range from less than 0.7 to over 4.</aside>
+</section>
+
+<section>
+<h1 class="double"> <span class="orange">Drainage </span>Component</h1>
+<h2>Takes on a value of 0.07 or 0.08<div class="grey">for tiled or coarse-textured soils</div></h2>
+<aside>Drainage is the product of three factors. References include: Iowa Technical Note 25 (2004); Soils data from ISPAID (2007).</aside>
+</section
+
+<section>
+<ul>
+<li>Flow factor: <span class="grey">0.1 for soil listed in Tech. Note 25</span>
+<li>Precipitation factor: <span class="grey">between 7.55 and 8.17 based upon Tech. Note 25 and PE/WI preciptation</span>
+<li>STP drainage factor: <span class="grey">0.1 based upon NRS MLRA average STP</span>
+</ul>
+<h2>Drainage component factors</h2>
+</section>
+
+<section>
+<h1 class="double"> <span class="orange">Erosion </span>Component</h1>
+<h2>Range of near zero to 3.5<div class="grey">dependent on land cover and practices</div></h2>
+<aside>Erosion is the product of five factors. References include: Iowa Technical Note 25 (2004); NRCS USLE & RUSLE documentation (multiple); Soils data from ISPAID (2007).</aside>
+</section>
+
+<section>
+<ul>
+<dl>
+<li>Gross Erosion: <span class="grey">0.1 for soil listed in Tech. Note 25</span>
+<dd>RUSLE: <span class="grey">range of 0 to over 34 tons/ac</span>
+<dd>Ephemeral gully erosion: <span class="grey">0, 1.5 or 4.5 tons/ac</span>
+<dd>Classical gully erosion: <span class="grey">not estimated in PE/WI</span>
+<li>SDR: <span class="grey">approximately 0.1 for Southern Ia Drift Plain</span>
+<dd>Southern Iowa Drift Plain: <span class="grey">approximately 0.1</span>
+<dd>Des Moines Lobe: <span class="grey">approximately 0.01</span>
+<li>Buffer factor: <span class="grey">0.5, 0.7 or 1 based on land cover</span>
+<li>Enrichment factor: <span class="grey">1.1-1.3 based on land cover</span>
+<li>STP erosion factor: <span class="grey">0.82-0.83 based on NRS MLRA average STP</span>
+</dl>
+</ul>
+<h2>Erosion component factors</h2>
+</section>
+
+<section>
+<h1 class="double"> <span class="orange">Runoff </span>Component</h1>
+<h2>Range of near zero to over 0.7<div class="grey">based on run-off curve numbers and other factors</div></h2>
+<aside>Runoff is the product of four factors. References include: Iowa Technical Note 25 (2004); NRCS USLE & RUSLE documentation (multiple); Soils data from ISPAID (2007).</aside>
+</section>
+
+<section>
+<ul>
+<dl>
+<li>Runoff factor: <span class="grey">range of 0.02 to 0.31, based on RCN</span>
+<dd>RCN: <span class="grey">range of 48 to 88</span>
+<li>Application factor: <span class="grey">0-0.13 based on rate and method</span>
+<li>Precipitation factor: <span class="grey">between 7.55 and 8.17 based upon Tech. Note 25 and PE/WI preciptation</span>
+<li>STP runoff factor: <span class="grey">0.19-0.20 based on NRS MLRA average STP</span>
+</dl>
+</ul>
+<h2>Runoff component factors</h2>
+</section>
+
+<section>
+<h1 class="double">Stream <span class="purple">Sediment </span>Delivery</h1>
+<h2>Annual total watershed sediment delivery</h2>
+<aside>Sediment delivery is calculated for each field, aggregated over each subwatershed with conservation practice reductions, and summed across the watershed.</aside>
+</section>
+
+<section>
+<h1 class="double">Stream <span class="purple">Phosphorus </span>Loading Results</h1>
+<h2>The range of values will depend upon how the calculation is performed.</h2>
+<aside>We would like to discuss the calculation of sediment for a watershed in more detail. We know that the best outcome occurs when the land cover is prairie. The worst concentration situation occurs with soybean with all wet years. Intermediate outcomes occur for permanent pasture and conservation row crops.</aside>
+</section>
+
+<section>
+<h1 class="double"><span class="purple">Sediment </span>Control</h1>
+<h2>An index score, ranging from 0 to 100</h2>
+<aside>Using a straight-line index, we index the lowest sediment attainable in PE/WI for any given temporal climate sequence to 100, best score.  Similarly, we index the highest sediment attainable to 0, worst score.</aside>
+</section>
+
+<section>
+<h1>Level 2: <span class="blue">Subwatershed</span></h1>
+<h2> <a href="http://carriec.github.io/pewi/presentations/science_review/tree">Second-level of PE/WI model calculation</a></h2>
+<aside>Subwatershed sediment delivery is similar to P-Index erosion component, and is the product of three multipliers</aside>
+</section>
+
+<section>
+<h1> <span class="orange">Sediment </span>Control Index</h1>
+<h2>Range of near zero to over 4 for each ten-acre field</h2>
+<aside>The calculation is based on the PE/WI version 1 estimate. We believe this figure to be per-acre but would like to confirm.</aside>
+</section>
+
+<section>
+<h1 class="double"> <span class="orange">Strategic Wetland </span>Multiplier</h1>
+<h2>Mutiply by 0.8<div class="grey">if all strategic wetlands are utilized.</div></h2>
+<aside>Iowa Nutrient Reduction Strategy, Section 2: Nonpoint Source Nutrient Reduction Science Assessment (2013).</aside>
+</section>
+
+<section>
+<h1 class="double"> <span class="orange">Strategic Wetland </span>Multiplier</h1>
+<h2>Mutiply by 0.42<div class="grey">dependent upon all </h2>
+<aside>Iowa Nutrient Reduction Strategy, Section 2: Nonpoint Source Nutrient Reduction Science Assessment (2013).</aside>
+</section>
+
+<section>
+<h1>Level 3: <span class="blue">Field</span></h1>
+<h2> <a href="http://carriec.github.io/pewi/presentations/science_review/tree">Second-level of PE/WI model calculation</a></h2>
+<aside>Field P-index scores are the product of three erosion factors: gross erosion, SDR, and buffer factor. As mentioned previously, scores for ten acre fields in PE/WI range from near zero to near 4. </aside>
+</section>
+
+<section>
+<ul>
+<dl>
+<li>Gross Erosion: <span class="grey">0.1 for soil listed in Tech. Note 25</span>
+<dd>RUSLE: <span class="grey">range of 0 to over 34 tons/ac</span>
+<dd>Ephemeral gully erosion: <span class="grey">0, 1.5 or 4.5 tons/ac</span>
+<dd>Classical gully erosion: <span class="grey">not estimated in PE/WI</span>
+<li>SDR: <span class="grey">approximately 0.1 for Southern Ia Drift Plain</span>
+<dd>Southern Iowa Drift Plain: <span class="grey">approximately 0.1</span>
+<dd>Des Moines Lobe: <span class="grey">approximately 0.01</span>
+<li>Buffer factor: <span class="grey">0.5, 0.7 or 1 based on land cover</span>
+</dl>
+</ul>
+<h2>Erosion component factors</h2>
 </section>
 
 <section class="chapter">
