@@ -92,6 +92,7 @@
 </section>
 
 <!-- comment 
+
 <section>
 <h1>Level 1: <span class="blue">Watershed</span></h1>
 <h2>Highest-level of PE/WI model calculation</h2>
@@ -186,6 +187,8 @@
 <h2>Precipitation factors</h2>
 </section>
 
+-->
+
 <section>
 <h1 class="double">Stream <span class="purple">Phosphorus </span>Loading</h1>
 <h2>Annual total watershed stream loading</h2>
@@ -193,15 +196,27 @@
 </section>
 
 <section>
+<ul>
+<li>Continuous Soybean: <span class="grey">7881 lbs (3.6 Mg)</span>
+<li>Corn following soybean: <span class="grey">7761 lbs (3.5 Mg)</span>
+<li>Conservation row crop: <span class="grey">3422 lbs (1.6 Mg)</span>
+<li>Permanent Pasture: <span class="grey">3759 lbs lbs (1.7 Mg)</span>
+<li>Prairie: <span class="grey">416 lbs (0.2 Mg)</span>
+</ul>
+<h2>Phosphorus loading results: annual watershed totals</h2>
+<aside>These values assume no reductions to loading for buffered streams and wetlands.</aside>
+</section>
+
+<section>
 <h1 class="double">Stream <span class="purple">Phosphorus </span>Loading Results</h1>
-<h2>The range of values will depend upon how the calculation is performed.</h2>
-<aside>We would like to clarify how to use the P-Index field values to calculate loading for a watershed. We know that the best outcome occurs when the land cover is prairie. The worst concentration situation occurs with soybean with all wet years. Intermediate outcomes occur for permanent pasture and conservation row crops.</aside>
+<h2></h2>
+<aside>P-index scores per acre are multiplied by the number of acres per pixel, summed across each subwatershed, and summed for the watershed to give P-loading in pounds annually. In the subwatershed level calculation, we allow for reductions if wetlands and stream buffers are utilized.</aside>
 </section>
 
 <section>
 <h1 class="double"><span class="purple">Phosphorus </span>Control</h1>
 <h2>An index score, ranging from 0 to 100</h2>
-<aside>Using a straight-line index, we index the lowest loading attainable in PE/WI for any given temporal climate sequence to 100, best score.  Similarly, we index the highest loading attainable to 0, worst score.</aside>
+<aside>Using a straight-line index, we index the lowest loading attainable in PE/WI for any given temporal-climate sequence to 100, best score.  Similarly, we index the highest loading attainable to 0, worst score.</aside>
 </section>
 
 <section>
@@ -212,7 +227,7 @@
 
 <section>
 <h1>Iowa <span class="orange">Phosphorus </span>Index</h1>
-<h2>Range of near zero to over 4 for each ten-acre field</h2>
+<h2>Range of near zero to over 4 lbs/ac multiplied by 10 ac </h2>
 <aside>Iowa Technical Note 25 (2004). All fields are summed together for a subwatershed. Should this be multiplied by the acres per field? Lowest P-Index values occur with prairie land cover. Pasture and conservation row crops range from less than 0.5 to 1. Annual row crops range from less than 0.7 to over 4.</aside>
 </section>
 
@@ -223,8 +238,8 @@
 </section>
 
 <section>
-<h1 class="double"> <span class="orange">Strategic Wetland </span>Multiplier</h1>
-<h2>Mutiply by 0.42<div class="grey">dependent upon all strategic wetland utilization</div></h2>
+<h1 class="double"> <span class="orange">Buffered Stream</span>Multiplier</h1>
+<h2>Mutiply by 0.42<div class="grey">dependent upon buffering the primary PE/WI stream with a buffer land cover.</h2>
 <aside>Iowa Nutrient Reduction Strategy, Section 2: Nonpoint Source Nutrient Reduction Science Assessment (2013).</aside>
 </section>
 
@@ -237,7 +252,7 @@
 <section>
 <h1>Iowa <span class="orange">Phosphorus </span>Index</h1>
 <h2>Range of near zero to over 4 for each field</h2>
-<aside>Iowa Technical Note 25 (2004). Uncertain whether a measurement unit is associated with index scores and how to aggregate subwatershed loading. Lowest P-Index values occur with prairie land cover. Pasture and conservation row crops range from less than 0.5 to 1. Annual row crops range from less than 0.7 to over 4.</aside>
+<aside>Iowa Technical Note 25 (2004). Lowest P-Index values occur with prairie land cover, ranging from 0.03-0.16. Pasture and conservation row crops range from less than 0.5 to 1. Annual row crops range from less than 0.7 to over 4.</aside>
 </section>
 
 <section>
@@ -264,7 +279,7 @@
 <section>
 <ul>
 <dl>
-<li>Gross Erosion: <span class="grey">0.1 for soil listed in Tech. Note 25</span>
+<li>Gross Erosion: <span class="grey">range of 0 to over 38 tons/ac</span>
 <dd>RUSLE: <span class="grey">range of 0 to over 34 tons/ac</span>
 <dd>Ephemeral gully erosion: <span class="grey">0, 1.5 or 4.5 tons/ac</span>
 <dd>Classical gully erosion: <span class="grey">not estimated in PE/WI</span>
@@ -305,9 +320,9 @@
 </section>
 
 <section>
-<h1 class="double">Stream <span class="purple">Phosphorus </span>Loading Results</h1>
-<h2>The range of values will depend upon how the calculation is performed.</h2>
-<aside>We would like to discuss the calculation of sediment for a watershed in more detail. We know that the best outcome occurs when the land cover is prairie. The worst concentration situation occurs with soybean with all wet years. Intermediate outcomes occur for permanent pasture and conservation row crops.</aside>
+<h1 class="double">Stream <span class="purple">Sediment </span>Delivery Results</h1>
+<h2>Ranging from 7 to 5419 tons annually</h2>
+<aside>Sediment delivery = (Gross Erosion * SDR * Buffer Factor) * Buffer Reduction * Wetland Reduction. These figures presented here do not include potential reductions for buffered streams and strategic wetlands.</aside>
 </section>
 
 <section>
@@ -319,7 +334,7 @@
 <section>
 <h1>Level 2: <span class="blue">Subwatershed</span></h1>
 <h2> <a href="http://carriec.github.io/pewi/presentations/science_review/tree">Second-level of PE/WI model calculation</a></h2>
-<aside>Subwatershed sediment delivery is similar to P-Index erosion component, and is the product of three multipliers</aside>
+<aside>Subwatershed sediment delivery is similar to P-Index erosion component, and is the product of three multipliers: Gross Erosion * SDR * Buffer Factor, that are potentially multiplied by two reduction factors.</aside>
 </section>
 
 <section>
@@ -335,8 +350,8 @@
 </section>
 
 <section>
-<h1 class="double"> <span class="orange">Strategic Wetland </span>Multiplier</h1>
-<h2>Mutiply by 0.42<div class="grey">dependent upon all strategic wetland utilization</h2>
+<h1 class="double"> <span class="orange">Buffered Stream</span>Multiplier</h1>
+<h2>Mutiply by 0.42<div class="grey">dependent upon buffering the primary PE/WI stream with a buffer land cover.</h2>
 <aside>Iowa Nutrient Reduction Strategy, Section 2: Nonpoint Source Nutrient Reduction Science Assessment (2013).</aside>
 </section>
 
@@ -349,7 +364,7 @@
 <section>
 <ul>
 <dl>
-<li>Gross Erosion: <span class="grey">0.1 for soil listed in Tech. Note 25</span>
+<li>Gross Erosion: <span class="grey">range of 0 to over 38 tons/ac</span>
 <dd>RUSLE: <span class="grey">range of 0 to over 34 tons/ac</span>
 <dd>Ephemeral gully erosion: <span class="grey">0, 1.5 or 4.5 tons/ac</span>
 <dd>Classical gully erosion: <span class="grey">not estimated in PE/WI</span>
@@ -361,6 +376,8 @@
 </ul>
 <h2>Erosion component factors</h2>
 </section>
+
+<!-- comment 
 
 <section>
 <h1>Level 1: <span class="blue">Watershed</span></h1>
@@ -477,8 +494,6 @@
 <h2>Breakdown of average fruit and vegetable yields</h2>
 </section>
 
--->
-
 <section>
 <h1>Level 1: <span class="blue">Watershed</span></h1>
 <h2>Highest-level of PE/WI model calculation</h2>
@@ -537,6 +552,8 @@
 <h2>Biodiversity and Game Wildlife</h2>
 <aside>We assumed in PE/WI that perennials, such as switchgrass, would benefit both biodiversity and game wildlife levels. We, however, did not count herbaceous biomass crops in the list of stream buffer land covers. In calculations of contagion, we assigned herbaceous biomass crops as having low spatial and high temporal heterogeneity. </aside>
 </section>
+
+-->
 
 <section class="chapter">
 <h2>Carrie Chennault: <span class="grey">carriemc@iastate.edu</span><div>Lisa Schulte Moore: <span class="grey">lschulte@iastate.edu</span></div></h2>
