@@ -138,6 +138,14 @@ q.nogap:after {
   color: #6baed6;
 }
 
+
+.darkblue,
+.html .tag,
+.css .tag,
+.javascript .keyword {
+  color: #332288;
+}
+
 .grey,
 .comment {
   color: #969696;
