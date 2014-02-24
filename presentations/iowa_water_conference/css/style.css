@@ -1,4 +1,4 @@
-body {
+﻿body {
   background: #929292;
   font: 36px "Helvetica Neue";
   text-rendering: optimizeLegibility;
@@ -100,6 +100,26 @@ h2 {
 
 ul, pre {
   margin: 0;
+}
+
+ol li:nth-child(1):before {
+    color: #6baed6;
+}
+
+ol li:nth-child(2):before {
+    color: #74c476;
+}
+
+ol li:nth-child(3):before {
+    color: #e377c2;
+}
+
+ol li:nth-child(4):before {
+    color: #332288
+}
+
+ol li:nth-child(5):before {
+    color: #fd8d3c;
 }
 
 pre, code {
