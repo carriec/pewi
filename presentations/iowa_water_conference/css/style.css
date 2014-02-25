@@ -139,11 +139,11 @@ q.nogap:after {
 }
 
 
-.darkblue,
+.softyellow,
 .html .tag,
 .css .tag,
 .javascript .keyword {
-  color: #332288;
+  color: #DDCC77;
 }
 
 .grey,
