@@ -202,65 +202,65 @@
 			},
             {"name": "Enrichment factor", 
 			"children": [
-			  {"name": "Land cover", "size": 593}
+				{"name": "Land cover", "size": 593}
 			  ]
 			},
             {"name": "Gross erosion", 
 	         "children": [
-			 {"name": "Ephemeral gully erosion"},	         
-			 {"name": "RUSLE",
-			 "children":  [
-				{"name": "R: Rainfall erosivity",
-				"children":  [
-					{"name": "PE/WI precipitation"}
-					]
-				},
-				{"name": "K: Soil erodibility",
-				"children":  [
-					{"name":"ISPAID K factor"}
-					]
-				},
-				{"name": "LS: Slope length steepness",
-				"children":  [
-					{"name": "Land cover"},
-					{"name": "Topography",
-					"children: [		
-						{"name": "Slope length"},
-						{"name": "Slope steepness"}
-						]
-					}
-					]
-				},				
-				{"name": "C: Cover management",
-				"children":  [
-					{"name": "Land cover"},
-					{"name": "Annual crop rotation"}
-					]
-				},
-				{"name": "P: Practice support",
-				"children":  [
-					{"name": "Land Cover"
+				 {"name": "Ephemeral gully erosion"},	         
+				 {"name": "RUSLE",
+				 "children":  [
+					{"name": "R: Rainfall erosivity",
 					"children":  [
-						{"name": "Conservation Corn"},
-						{"name": "Conservation Soybean"}
+						{"name": "PE/WI precipitation"}
 						]
 					},
-					{"name": "Contour"
-					"children": [
-						{"name": "Slope steepness"}
+					{"name": "K: Soil erodibility",
+					"children":  [
+						{"name":"ISPAID K factor"}
 						]
 					},
-					{"name": "Terrace",
-					"children": [
-						{"name": "Slope steepness"},
-						{"name": "Terrace interval"}
+					{"name": "LS: Slope length steepness",
+					"children":  [
+						{"name": "Land cover"},
+						{"name": "Topography",
+						"children: [		
+							{"name": "Slope length"},
+							{"name": "Slope steepness"}
+							]
+						}
+						]
+					},				
+					{"name": "C: Cover management",
+					"children":  [
+						{"name": "Land cover"},
+						{"name": "Annual crop rotation"}
+						]
+					},
+					{"name": "P: Practice support",
+					"children":  [
+						{"name": "Land cover",
+						"children":  [
+							{"name": "Conservation Corn"},
+							{"name": "Conservation Soybean"}
+							]
+						},
+						{"name": "Contour",
+						"children": [
+							{"name": "Slope steepness"}
+							]
+						},
+						{"name": "Terrace",
+						"children": [
+							{"name": "Slope steepness"},
+							{"name": "Terrace interval"}
+							]
+						}
 						]
 					}
 					]
-				}
-				]
-			 }
-	         ]
+				 }
+				 ]
 	        },
             {"name": "Sediment delivery ratio",
 			 "children": [
@@ -293,14 +293,14 @@
 	          {"name": "Application rate",
 			  "children":  [
 				{"name": "MLRA"},
-				{"name": "Land Cover",
+				{"name": "Land cover",
 				"children": [
 					{"name": "Alfalfa"},
 					{"name": "Conservation corn"},
 					{"name": "Conservation soybean"},
 					{"name": "Conventional corn"},
 					{"name": "Conventional soybean"},
-					{"name": "Grass Hay"},
+					{"name": "Grass hay"},
 					{"name": "Mixed fruit and vegetable"},
 					{"name": "Permanent pasture"},
 					{"name": "Rotational grazing"}
