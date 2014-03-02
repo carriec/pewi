@@ -141,7 +141,7 @@
       {"name": "Conservation soybean", "size": 5731},
 	  {"name": "Conventional corn", "size": 3534},
       {"name": "Conventional soybean", "size": 5731},
-	  {"name": "Mixed fruits and vegetables", "size": 7840}
+	  {"name": "Mixed fruit and vegetable", "size": 7840}
      ]
     },
     {
@@ -387,7 +387,7 @@
 			},
 			{"name": "Grass hay", "size": 1027},
 			{"name": "Herbaceous perennial bioenergy", "size": 1027},
-			{"name": "Mixed fruits and vegetables"}
+			{"name": "Mixed fruit and vegetable"}
 			,
 			{"name": "Soybean",
 			"children": [
