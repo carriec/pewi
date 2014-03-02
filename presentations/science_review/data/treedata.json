@@ -242,8 +242,8 @@
 					"children":  [
 						{"name": "Land cover",
 						"children":  [
-							{"name": "Conservation Corn"},
-							{"name": "Conservation Soybean"}
+							{"name": "Conservation corn"},
+							{"name": "Conservation soybean"}
 							]
 						},
 						{"name": "Contour",
@@ -337,6 +337,7 @@
 			  {"name": "Conservation forest"},
 			  {"name": "Conservation soybean"},
 			  {"name": "Conventional forest"},
+			  {"name": "Grass hay"},
 			  {"name": "Herbaceous perennial bioenergy"},
 			  {"name": "Prairie"},
 			  {"name": "Short-rotation woody bioenergy"},
@@ -345,7 +346,59 @@
 		},
 		{"name": "Gross erosion", 
 		 "children": [
-		   {"name": "RUSLE"},
+		   {"name": "RUSLE"
+		   ,
+				 "children":  [
+					{"name": "R: Rainfall erosivity",
+					"children":  [
+						{"name": "PE/WI precipitation"}
+						]
+					},
+					{"name": "K: Soil erodibility",
+					"children":  [
+						{"name":"ISPAID K factor"}
+						]
+					},
+					{"name": "LS: Slope length steepness",
+					"children":  [
+						{"name": "Land cover"},
+						{"name": "Topography",
+						"children": [		
+							{"name": "Slope length"},
+							{"name": "Slope steepness"}
+							]
+						}
+						]
+					},				
+					{"name": "C: Cover management",
+					"children":  [
+						{"name": "Land cover"},
+						{"name": "Annual crop rotation"}
+						]
+					},
+					{"name": "P: Practice support",
+					"children":  [
+						{"name": "Land cover",
+						"children":  [
+							{"name": "Conservation corn"},
+							{"name": "Conservation soybean"}
+							]
+						},
+						{"name": "Contour",
+						"children": [
+							{"name": "Slope steepness"}
+							]
+						},
+						{"name": "Terrace",
+						"children": [
+							{"name": "Slope steepness"},
+							{"name": "Terrace interval"}
+							]
+						}
+						]
+					}
+					]
+		   },
 		   {"name": "Ephemeral gully erosion"}
 		 ]
 	    },
