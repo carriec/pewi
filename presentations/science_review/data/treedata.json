@@ -24,7 +24,7 @@
       {"name": "Conservation corn", "size": 3534},
       {"name": "Conservation soybean", "size": 5731},
 	  {"name": "Conventional forest", "size": 7840},
-	  {"name": "Herbaceous bioenergy", "size": 7840},
+	  {"name": "Herbaceous perennial bioenergy", "size": 7840},
       {"name": "Rotational grazing", "size": 7840}	
      ]
     },
@@ -61,7 +61,7 @@
 	  {"name": "Conservation forest", "size": 7840},
 	  {"name": "Conventional forest", "size": 7840},
 	  {"name": "Grass hay", "size": 7840},
-	  {"name": "Herbaceous bioenergy", "size": 7840},
+	  {"name": "Herbaceous perennial bioenergy", "size": 7840},
 	  {"name": "Permanent pasture", "size": 7840},
 	  {"name": "Prairie", "size": 7840},
       {"name": "Rotational grazing", "size": 7840},
@@ -88,7 +88,7 @@
 	  {"name": "Conservation corn", "size": 3534},
       {"name": "Conservation soybean", "size": 5731},
 	  {"name": "Conventional forest", "size": 7840},
-	  {"name": "Herbaceous bioenergy", "size": 7840},
+	  {"name": "Herbaceous perennial bioenergy", "size": 7840},
       {"name": "Prairie", "size": 3534},
 	  {"name": "Rotational grazing", "size": 7840},	
 	  {"name": "Wetland", "size": 7840}
@@ -195,7 +195,7 @@
 			  {"name": "Conservation forest"},
 			  {"name": "Conservation soybean"},
 			  {"name": "Conventional forest"},
-			  {"name": "Herbaceous bioenergy"},
+			  {"name": "Herbaceous perennial bioenergy"},
 			  {"name": "Prairie"},
 			  {"name": "Short-rotation woody bioenergy"},
 			  {"name": "Wetland"}
@@ -269,7 +269,7 @@
 			  {"name": "Conservation forest"},
 			  {"name": "Conservation soybean"},
 			  {"name": "Conventional forest"},
-			  {"name": "Herbaceous bioenergy"},
+			  {"name": "Herbaceous perennial bioenergy"},
 			  {"name": "Prairie"},
 			  {"name": "Short-rotation woody bioenergy"},
 			  {"name": "Wetland"}
@@ -319,15 +319,16 @@
 			  ]
 			},
 			{"name": "Grass hay", "size": 1027},
-			{"name": "Herbaceous biomass", "size": 1027},
-			{"name": "Mixed fruits and vegetables", "size": 1027},
+			{"name": "Herbaceous perennial bioenergy", "size": 1027},
+			{"name": "Mixed fruits and vegetables"}
+			,
 			{"name": "Soybean",
 			"children": [
 			  {"name": "Conservation soybean", "size": 593},
 			  {"name": "Conventional soybean", "size": 330}
 			  ]
 			},
-			{"name": "Short-rotation woody biomass", "size": 891},
+			{"name": "Short-rotation woody bioenergy", "size": 891},
 			{"name": "Timber",
 			"children": [
 			  {"name": "Conservation forest", "size": 593},
