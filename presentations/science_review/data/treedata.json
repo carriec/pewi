@@ -163,7 +163,7 @@
    "name": "Phosphorus loading",
    "children": [
     {
-     "name": "P Index",
+     "name": "Iowa P Index",
      "children": [
         {"name": "Drainage component",
 		"children": [
@@ -177,8 +177,7 @@
 			},
             {"name": "Precipitation factor",
 			"children": [
-	          {"name": "Historical annual averages"},
-	          {"name": "PE/WI annual averages"}
+	          {"name": "PE/WI precipitation"}
 	         ]
 			},
             {"name": "STP drainage factor",
@@ -252,8 +251,7 @@
 			},
 			{"name": "Precipitation factor",
 			"children": [
-	          {"name": "Historical annual averages"},
-	          {"name": "PE/WI annual averages"}
+	          {"name": "PE/WI precipitation"}
 	         ]
 			}
          ]
@@ -294,36 +292,50 @@
   {
    "name": "Yield",
    "children": [
-    {"name": "Alfalfa", "size": 1616},
-	{"name": "Cattle",
-	"children": [
-      {"name": "Permanent pasture", "size": 593},
-      {"name": "Rotational grazing", "size": 330}
-	  ]
-    },
-    {"name": "Corn",
-	"children": [
-      {"name": "Conservation corn", "size": 593},
-      {"name": "Conventional corn", "size": 330}
-	  ]
-    },
-	{"name": "Grass hay", "size": 1027},
-	{"name": "Herbaceous biomass", "size": 1027},
-	{"name": "Mixed fruits and vegetables", "size": 1027},
-    {"name": "Soybean",
-	"children": [
-      {"name": "Conservation soybean", "size": 593},
-      {"name": "Conventional soybean", "size": 330}
-	  ]
-    },
-	{"name": "Short-rotation woody biomass", "size": 891},
-	{"name": "Timber",
-	"children": [
-      {"name": "Conservation forest", "size": 593},
-      {"name": "Conventional forest", "size": 330}
-	  ]
-    }
-	]
+	   {"name": "PE/WI precipitation"},
+	   {"name": "ISPAID soil type"},
+	   {"name": "Land Cover",
+		"children": [
+			{"name": "Alfalfa", "size": 1616},
+			{"name": "Cattle",
+			"children": [
+				{"name": "Average daily intake"},
+				{"name": "Grazing season length"}
+				{"name": "Live bodyweight"},
+				{"name": "Grass hay yield"},
+				{"name": "Utilization rate",
+				"children": [
+					  {"name": "Permanent pasture", "size": 593},
+					  {"name": "Rotational grazing", "size": 330}
+					  ]
+				}
+				]		
+			},
+			{"name": "Corn",
+			"children": [
+			  {"name": "Conservation corn", "size": 593},
+			  {"name": "Conventional corn", "size": 330}
+			  ]
+			},
+			{"name": "Grass hay", "size": 1027},
+			{"name": "Herbaceous biomass", "size": 1027},
+			{"name": "Mixed fruits and vegetables", "size": 1027},
+			{"name": "Soybean",
+			"children": [
+			  {"name": "Conservation soybean", "size": 593},
+			  {"name": "Conventional soybean", "size": 330}
+			  ]
+			},
+			{"name": "Short-rotation woody biomass", "size": 891},
+			{"name": "Timber",
+			"children": [
+			  {"name": "Conservation forest", "size": 593},
+			  {"name": "Conventional forest", "size": 330}
+			  ]
+			}
+			]
+		}
+		]
   }
   ]
 }
