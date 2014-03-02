@@ -163,19 +163,6 @@
    "name": "Phosphorus loading",
    "children": [
     {
-     "name": "Buffered stream",
-	  "children": [
-		{"name": "Conservation corn", "size": 593},
-		{"name": "Conservation forest"},
-		{"name": "Conservation soybean"},
-		{"name": "Conventional forest"},
-		{"name": "Herbaceous bioenergy"},
-		{"name": "Prairie"},
-		{"name": "Short-rotation woody bioenergy"},
-		{"name": "Wetland"}
-        ]
-    },
-    {
      "name": "P Index",
      "children": [
         {"name": "Drainage component",
@@ -272,32 +259,13 @@
          ]
 		}
      ]
-	 },
-	{
-     "name": "Strategic wetland"
-    }
+	 }
 	]
   },
     {
    "name": "Sediment delivered",
    "children": [
-    {
-     "name": "Buffered stream",
-	  "children": [
-		{"name": "Conservation corn", "size": 593},
-		{"name": "Conservation forest"},
-		{"name": "Conservation soybean"},
-		{"name": "Conventional forest"},
-		{"name": "Herbaceous bioenergy"},
-		{"name": "Prairie"},
-		{"name": "Short-rotation woody bioenergy"},
-		{"name": "Wetland"}
-        ]
-    },
-	{
-     "name": "Erosion",
-     "children": [
-		{"name": "Buffer factor", 
+	{"name": "Buffer factor", 
 		    "children": [
 			  {"name": "Conservation corn", "size": 593},
 			  {"name": "Conservation forest"},
@@ -322,11 +290,6 @@
 	         ]
 		}
         ]
-	},
-	{
-     "name": "Strategic wetland P reduction"
-    }
-	]
   },
   {
    "name": "Yield",
