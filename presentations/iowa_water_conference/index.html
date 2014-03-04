@@ -1,41 +1,44 @@
-
-
 <!DOCTYPE html>
 <meta charset="utf-8">
 <base target="_blank">
 <base>
 <style>
 
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+@import url(fonts/font.css);
 @import url(css/style.css);
 @import url(css/chart.css);
 
 </style>
 <body class="overview">
-<script src="http://d3js.org/d3.v2.min.js"></script>
+<script src="d3/d3.v2.min.js"></script>
+<!--<script src="http://d3js.org/d3.v2.min.js"></script>-->
 <script src="scripts/chart.js"></script>
 
 <section>
 <h1 class="blue">PE/WI</h1>
-<h2><a href="http://nrem.iastate.edu/landscape/content/people">Carrie Chennault</a><div class="grey">nrem.iastate.edu/landscape/projects/</div></h2>
+<h2><a href="http://nrem.iastate.edu/landscape/content/pewi">Carrie Chennault</a><div class="grey">http://www.nrem.iastate.edu/landscape/content/pewi</div></h2>
 <aside>Hello! These slides introduce the People in Ecosystems/Watershed Integration learning tool, developed by our team at ISU over the past year.  Today, we'll focus on what the tool does and background on its development. When we get to the demo, I'll give you all a web address so you can follow along on your mobile devices.</aside>
 </section>
 
 <section>
-<ol>
+<ol style="font: 48px Helvetica Neue;">
 <li>What is <span class="blue"><b>PE/WI</b></span>?
 <li>What does PE/WI <span class="green"><b>TEACH</b></span>?
 <li>How to <span class="pink"><b>PLAY</b></span>
 <li><span class="softyellow"><b>DEMO</b></span>
 <li>What's <span class="orange"><b>NEXT</b></span>?
 </ol>
+<!--
 <h2>Outline</h2>
+-->
 </section>
 
 <section class="chapter" style="background: #6baed6">
 <h1 class="black">1</h1>
 <h2 class="black">What is PE/WI?</h2>
+<!--
 <aside>PE/WI stands for People in Ecosystems/Watershed Integration. It is an online game-based educational tool that teaches complex interactions between humans and ecosystems through simulation of land use and outcomes in a fictitious Iowa watershed.</aside>
+-->
 </section>
 
 <section>
@@ -57,8 +60,9 @@
 
 <section>
 <h1 class="double">Our <span class="blue">Sandbox </span></h1>
-<h2>PE/WI is fun, simple & accurate <div class="grey">Learning about land use without investment or over-complexity</div></span></h2>
-<aside style="height: 219px; background:url(images/appsmall.png) 100%;"></aside>
+<h2>PE/WI is fun, simple & accurate <div class="grey">Learning about land use without investment or over-complication</div></span></h2>
+<aside style="height: 288px; width: 468px; background:url(images/appmed.png) ;"></aside>
+<!--<aside style="height: 219px; background:url(images/appsmall.png) 100%;"></aside>-->
 </section>
 
 <!-- comment 
@@ -71,13 +75,15 @@
 <section class="chapter" style="background: #74c476">
 <h1 class="black">2</h1>
 <h2 class="black">What does PE/WI teach?</h2>
+<!--
 <aside>PE/WI lets users learn about the impacts of agricultural land use. It's a risk-free way of playing with multiple land uses and asking <i>What if I did this on my land?</i></aside>
+-->
 </section>
 
 <!-- comment How does PE/WI do this?-->
 
 <section class="chapter">
-<h1><span class="green">Land-use </span> Decisions</h1>
+<h1 class="double">Learn about <div>Land-use </span> <span class="green">Decisions</div></h1>
 <h2>Human land-use decisions drive agricultural and environmental outcomes</h2>
 </section>
 
@@ -136,12 +142,12 @@
 
 <section>
 <h1><span class="purple">Water</span></h1>
-<h2>In-stream nitrates, phosphorus, and sediment delivery</h2>
+<h2>In-stream nitrate, phosphorus, and sediment delivery</h2>
 </section>
 
 <section>
-<h1 class="double"><span class="purple">Trade-offs </span> among Multiple <span class="purple">Objectives</span></h1>
-<h2>May disappear in the long-term or be much smaller than you think</h2>
+<h1 class="double"><span class="purple">Trade-offs </span>& <span class="purple"><div>Co-benefits</div></span></h1>
+<h2>Trade-offs may be much smaller than you think, or<div class="grey">Objectives may even be compatible and synergistic</div></h2>
 </section>
 
 <!-- comment
@@ -160,7 +166,9 @@
 <section class="chapter" style="background: #e377c2">
 <h1 class="black">3</h1>
 <h2 class="black">How to play</h2>
+<!--
 <aside>PE/WI is a web-based platform with easy-to-use interactive graphics.  To play, evaluate all the factors, choose land covers, review results, and continue improvements.</aside>
+-->
 </section>
 
 <section>
@@ -184,8 +192,13 @@
 </section>
 
 <section>
-<h1>Fifteen <span class="pink">land use</span> options</h1>
-<h2>Users can strategically place land uses</h2>
+<h1 class="double">Fifteen <span class="pink">land-use</span> options</h1>
+<h2>Users can explore land-use alternatives</h2>
+</section>
+
+<section>
+<h1 class="double"> Develop <span class="pink">strategies</span> to meet goals</h1>
+<h2>Users can learn how to create designs that satisfy multiple objectives</h2>
 </section>
 
 <section class="chapter" style="background: #DDCC77">
@@ -193,31 +206,38 @@
 <h2 class="black">Demo</h2>
 </section>
 
-<section class="chapter" style="background:url(images/app.png) 100%;">
-<h1 style="color: #2D2D2D">PE/WI</h1>
+<section class="chapter" style="background:url(images/applarge.png) 100%;">
+<h1 >PE/WI</h1>
 <h2><a class="shadow" href="http://www.nrem.iastate.edu/landscape/pewi/">nrem.iastate.edu/landscape/pewi</a></h2>
 </section>
 
 <section class="chapter" style="background: #fd8d3c">
-<h1>5</h1>
-<h2>What's next?</h2>
+<h1 class="black">5</h1>
+<h2 class="black">What's next?</h2>
 </section>
 
 <section>
-<h1><span class="orange">Beta </span>release</h1>
-<h2>Today, we're releasing PE/WI in beta to the public<div class="grey">Continued improvements over the next couple months</div></h2>
+<h1>PE/WI <span class="orange">release </span> party</h1>
+<h2>Today, we're releasing PE/WI to the public<div class="grey">It's in Beta, meaning you can help shape its continuing development</div></h2>
 </section>
 
 <section>
 <h1><span class="orange">Spread</span> the word</h1>
 <h2>Try it out and share it with community stakeholders</h2>
+<aside style="height: 300px; background:url(images/sandcastle.png) 100%;"></aside>
 </section>
 
 <section class="chapter">
-<h1 class="double"><span class="blue">nrem.iastate.edu/ landscape/</span>pewi</h1>
+<h1 class="double"><span class="blue">www.nrem.iastate.edu/ landscape/</span>pewi</h1>
 <h2>Carrie Chennault: <span class="grey">carriemc@iastate.edu</span><div>Lisa Schulte Moore: <span class="grey">lschulte@iastate.edu</span></div></h2>
 <aside>Thanks for being such a great audience! We would like to acknowledge and thank the McKnight Foundation and US Forest Service Northern Research Station for their support in the development of PE/WI. These slides were built with <a href="https://github.com/mbostock/stack">stack.js</a>.</aside>
 </section>
 
-<script src="http://mbostock.github.com/stack/stack.v0.js"></script>
+<section class="chapter" style="background:url(images/tree.png) 100%;">
+<h1 >PE/WI</h1>
+<h2><a class="shadow" href="http://carriec.github.io/pewi/presentations/science_review/tree">PE/WI Science Model</a></h2>
+</section>
+
+<!--<script src="http://mbostock.github.com/stack/stack.v0.js"></script>-->
+<script src="d3/stack.v0.js"></script>
 
