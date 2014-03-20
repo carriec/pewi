@@ -13,6 +13,10 @@ a {
   border-bottom: dotted 1px #969696;
 }
 
+img {
+	max-height: 95%;
+}
+
 .stack {
   background: #2D2D2D;
   border: solid 1px #000;
